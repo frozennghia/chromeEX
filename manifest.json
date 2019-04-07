@@ -1,0 +1,17 @@
+{
+ "manifest_version": 2,
+ "name": "yourRls",
+ "description": "The best extension ever.",
+ "version": "1",
+ "author": "HackDartmouth",
+"browser_action": {
+   "default_title": "Have a good day"
+ },
+"chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+"permissions" : [
+  "tabs",
+  "history"
+  ]
+}
